@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #13131f;
+    background-color: #ffffff;
     color: #a9afc3;
     font-size: 2rem;
     display: grid;
@@ -18,7 +18,8 @@ button {
     cursor: pointer;
     padding: 0.7rem;
     background: none;
-    color: inherit;
+    color: #13131f;
+    background-color: aqua;
     border: 1px solid #333;
 }
 
