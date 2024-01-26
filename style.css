@@ -4,14 +4,15 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     background-color: #ffffff;
     color: #a9afc3;
     font-size: 2rem;
     display: grid;
     place-items: center;
     min-height: 100vh;
-}
+} */
+
 
 button {
     font-size: 1.8rem;
@@ -41,3 +42,26 @@ button {
     grid-template-columns: repeat(4, 1fr);
     gap: 0.4rem;
 }
+
+/* ------------------------ */
+.container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cards {
+    display: grid;
+    width: 630px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 15px;
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: white;
+    height: 150px;
+  }
+  
